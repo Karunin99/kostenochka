@@ -32,6 +32,7 @@ text-align: center;
   width:800px;
   text-align: center;
   line-height: 60px;
+  background: center center cover no-repeat fixed;
 }
 article {
   background: url("img/c4.jpg");
