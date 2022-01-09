@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт для Ани Костенко</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="background: url(img/с2.jpg); background-size: 100%;">
+    <header>
+      <h1>Отсчёт дней</h1>
+    </header>
+    <main>
+      <p class="grow"><script type="text/javascript">
+        d0 = new Date('Sept 27, 2021');
+        d1 = new Date();
+        dt = (d1.getTime() - d0.getTime()) / (1000*60*60*24);
+        document.write('Сегодня <B>' + Math.round(dt) + '<\/B>-й день с начала наших отношений');
+        </script></p>
+    </main>
+    <nav class="fig">
+      <a href="index.html"><img src="img/c7.png" alt="На главную" height="30"></a>
+    </nav>
+  </body>
+</html>
